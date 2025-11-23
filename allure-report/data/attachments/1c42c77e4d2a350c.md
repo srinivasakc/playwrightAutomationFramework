@@ -1,0 +1,125 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "Automation Automation Practice":
+        - /url: ""
+        - generic [ref=e7]:
+          - heading "Automation" [level=3] [ref=e8]
+          - paragraph [ref=e9]: Automation Practice
+    - text: 
+    - list [ref=e10]:
+      - listitem [ref=e11] [cursor=pointer]:
+        - button " HOME" [ref=e12]:
+          - generic [ref=e13]: 
+          - text: HOME
+      - listitem
+      - listitem [ref=e14] [cursor=pointer]:
+        - button " ORDERS" [ref=e15]:
+          - generic [ref=e16]: 
+          - text: ORDERS
+      - listitem [ref=e17] [cursor=pointer]:
+        - button " Cart" [ref=e18]:
+          - generic [ref=e19]: 
+          - text: Cart
+      - listitem [ref=e20] [cursor=pointer]:
+        - button "Sign Out" [ref=e21]:
+          - generic [ref=e22]: 
+          - text: Sign Out
+  - generic [ref=e23]:
+    - heading "Your Orders" [level=1] [ref=e24]
+    - table [ref=e25]:
+      - rowgroup [ref=e26]:
+        - row "Order Id Product Image Name Price Ordered Date View Delete" [ref=e27]:
+          - columnheader "Order Id" [ref=e28]
+          - columnheader "Product Image" [ref=e29]
+          - columnheader "Name" [ref=e30]
+          - columnheader "Price" [ref=e31]
+          - columnheader "Ordered Date" [ref=e32]
+          - columnheader "View" [ref=e33]
+          - columnheader "Delete" [ref=e34]
+      - rowgroup [ref=e35]:
+        - row "692373465008f6a90935adb8 ZARA COAT 3 $ 11500 Sun Nov 23 View Delete" [ref=e36]:
+          - rowheader "692373465008f6a90935adb8" [ref=e37]
+          - cell [ref=e38]:
+            - img [ref=e39]
+          - cell "ZARA COAT 3" [ref=e40]
+          - cell "$ 11500" [ref=e41]
+          - cell "Sun Nov 23" [ref=e42]
+          - cell "View" [ref=e43]:
+            - button "View" [active] [ref=e44] [cursor=pointer]
+          - cell "Delete" [ref=e45]:
+            - button "Delete" [ref=e46] [cursor=pointer]
+        - row "69236f445008f6a90935a9ef ZARA COAT 3 $ 11500 Sun Nov 23 View Delete" [ref=e47]:
+          - rowheader "69236f445008f6a90935a9ef" [ref=e48]
+          - cell [ref=e49]:
+            - img [ref=e50]
+          - cell "ZARA COAT 3" [ref=e51]
+          - cell "$ 11500" [ref=e52]
+          - cell "Sun Nov 23" [ref=e53]
+          - cell "View" [ref=e54]:
+            - button "View" [ref=e55] [cursor=pointer]
+          - cell "Delete" [ref=e56]:
+            - button "Delete" [ref=e57] [cursor=pointer]
+        - row "692368e45008f6a90935a3d3 ZARA COAT 3 $ 11500 Sun Nov 23 View Delete" [ref=e58]:
+          - rowheader "692368e45008f6a90935a3d3" [ref=e59]
+          - cell [ref=e60]:
+            - img [ref=e61]
+          - cell "ZARA COAT 3" [ref=e62]
+          - cell "$ 11500" [ref=e63]
+          - cell "Sun Nov 23" [ref=e64]
+          - cell "View" [ref=e65]:
+            - button "View" [ref=e66] [cursor=pointer]
+          - cell "Delete" [ref=e67]:
+            - button "Delete" [ref=e68] [cursor=pointer]
+        - row "692368cd5008f6a90935a3aa ZARA COAT 3 $ 11500 Sun Nov 23 View Delete" [ref=e69]:
+          - rowheader "692368cd5008f6a90935a3aa" [ref=e70]
+          - cell [ref=e71]:
+            - img [ref=e72]
+          - cell "ZARA COAT 3" [ref=e73]
+          - cell "$ 11500" [ref=e74]
+          - cell "Sun Nov 23" [ref=e75]
+          - cell "View" [ref=e76]:
+            - button "View" [ref=e77] [cursor=pointer]
+          - cell "Delete" [ref=e78]:
+            - button "Delete" [ref=e79] [cursor=pointer]
+        - row "692337b55008f6a9093564c5 ZARA COAT 3 $ 11500 Sun Nov 23 View Delete" [ref=e80]:
+          - rowheader "692337b55008f6a9093564c5" [ref=e81]
+          - cell [ref=e82]:
+            - img [ref=e83]
+          - cell "ZARA COAT 3" [ref=e84]
+          - cell "$ 11500" [ref=e85]
+          - cell "Sun Nov 23" [ref=e86]
+          - cell "View" [ref=e87]:
+            - button "View" [ref=e88] [cursor=pointer]
+          - cell "Delete" [ref=e89]:
+            - button "Delete" [ref=e90] [cursor=pointer]
+        - row "692335dd5008f6a90935620c ZARA COAT 3 $ 11500 Sun Nov 23 View Delete" [ref=e91]:
+          - rowheader "692335dd5008f6a90935620c" [ref=e92]
+          - cell [ref=e93]:
+            - img [ref=e94]
+          - cell "ZARA COAT 3" [ref=e95]
+          - cell "$ 11500" [ref=e96]
+          - cell "Sun Nov 23" [ref=e97]
+          - cell "View" [ref=e98]:
+            - button "View" [ref=e99] [cursor=pointer]
+          - cell "Delete" [ref=e100]:
+            - button "Delete" [ref=e101] [cursor=pointer]
+        - row "6923354b5008f6a909356127 ZARA COAT 3 $ 11500 Sun Nov 23 View Delete" [ref=e102]:
+          - rowheader "6923354b5008f6a909356127" [ref=e103]
+          - cell [ref=e104]:
+            - img [ref=e105]
+          - cell "ZARA COAT 3" [ref=e106]
+          - cell "$ 11500" [ref=e107]
+          - cell "Sun Nov 23" [ref=e108]
+          - cell "View" [ref=e109]:
+            - button "View" [ref=e110] [cursor=pointer]
+          - cell "Delete" [ref=e111]:
+            - button "Delete" [ref=e112] [cursor=pointer]
+    - generic [ref=e113]: "* If orders Will be more than 7 your last order will get deleted"
+  - generic [ref=e115]:
+    - button "Go Back to Shop" [ref=e116] [cursor=pointer]
+    - button "Go Back to Cart" [ref=e117] [cursor=pointer]
+```
