@@ -1,13 +1,18 @@
+import {test, expect,Locator,Page} from '@playwright/test';
 export class OrdersHistoryPage
 {
-constructor(page)
+    orderdIdDetails : Locator;
+    rows :Locator;
+    ordersTable : Locator;
+    page : Page;
+constructor(page:Page)
 {
     this.page = page;
 this.ordersTable = page.locator("tbody");
 this.rows = page.locator("tbody tr");
 this.orderdIdDetails =page.locator(".col-text");
 }
-async searchOrderAndSelect(orderId)
+async searchOrderAndSelect(orderId:any)
 {
 
     await this.ordersTable.waitFor();
@@ -29,4 +34,4 @@ async getOrderId()
 }
 
 }
-
+module.exports = {OrdersHistoryPage};

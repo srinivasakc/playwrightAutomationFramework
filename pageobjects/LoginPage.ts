@@ -1,6 +1,13 @@
-export class LoginPage {
+import {test, expect,Locator,Page} from '@playwright/test';
 
-constructor(page)
+
+export class LoginPage {
+    signInbutton : Locator;
+    userName :Locator;
+    password : Locator;
+    page : Page;
+
+constructor(page:Page)
 {
     this.page = page;
     this.signInbutton= page.locator("[value='Login']");
@@ -14,7 +21,7 @@ async goTo()
     await this.page.goto("https://rahulshettyacademy.com/client");
 }
 
-async validLogin(username,password)
+async validLogin(username:string,password:string)
 {
     await  this.userName.fill(username);
      await this.password.fill(password);
@@ -24,3 +31,4 @@ async validLogin(username,password)
 }
 
 }
+module.exports = {LoginPage};

@@ -1,11 +1,22 @@
-import { LoginPage } from "./LoginPage";
-import { CartPage } from "./CartPage";
-import {OrdersReviewPage} from "./OrdersReviewPage";
-import { OrdersHistoryPage } from "./OrdersHistoryPage";
-import { DashboardPage } from "./DashboardPage";
+
+import {LoginPage} from './LoginPage';
+import {DashboardPage} from './DashboardPage';
+import { OrdersHistoryPage } from './OrdersHistoryPage';
+import { OrdersReviewPage } from './OrdersReviewPage';
+import { CartPage } from './CartPage';
+import {Page} from '@playwright/test';
+
 export class POManager
 {
-constructor(page)
+    loginPage: LoginPage;
+    dashboardPage: DashboardPage;
+    ordersHistoryPage : OrdersHistoryPage;
+    ordersReviewPage : OrdersReviewPage;
+    cartPage : CartPage;
+    page : Page;
+
+
+constructor(page:Page)
 {
     this.page = page;
     this.loginPage = new LoginPage(this.page);

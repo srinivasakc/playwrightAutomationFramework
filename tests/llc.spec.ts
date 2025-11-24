@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
- //getBy locators
+
 test('Playwright Special locators', async ({ page }) => {
   
     await page.goto("https://rahulshettyacademy.com/angularpractice/");
@@ -11,7 +11,20 @@ test('Playwright Special locators', async ({ page }) => {
     await page.getByText("Success! The Form has been submitted successfully!.").isVisible();
     await page.getByRole("link",{name : "Shop"}).click();
     await page.locator("app-card").filter({hasText: 'Nokia Edge'}).getByRole("button").click();
- 
+
     //locator(css)
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
