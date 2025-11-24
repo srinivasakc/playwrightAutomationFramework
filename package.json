@@ -21,9 +21,6 @@
     "@playwright/test": "^1.56.1",
     "@types/node": "^24.8.0"
   },
-  "scripts":{
-    
-  },
   "dependencies": {
     "allure-playwright": "^3.4.2",
     "exceljs": "^4.4.0"
